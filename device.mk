@@ -27,10 +27,6 @@ $(call inherit-product-if-exists, vendor/oneplus/oneplus7pro/oneplus7pro-vendor.
 PRODUCT_PACKAGES += \
     OnePlusCameraHelper
 
-# Display
-PRODUCT_PACKAGES += \
-	init.display.oneplus7pro.rc
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
